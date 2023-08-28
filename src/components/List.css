@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#B2FFFF;
+    margin-top: 30px;
+    justify-content: space-between; /* Adjust as needed */
+  }
+  
+  .task {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid white;
+    padding: 5px;
+    padding-top: 20px;
+    background-color:#01DDF5;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-bottom: 10px; /* Adjust as needed */
+    width: calc(25.33% - 20px); 
+    height:125px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .task p {
+    margin: 0;
+    font-size: 16px;
+    padding-right:5px;
+    flex-wrap: wrap;
+  }
+  .delete-button{
+    padding: 10px;
+    background-color: #feca76;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    width:80px;
+    margin-top: 8px;
+    margin-right: 25px;
+  }
+  /* List.css */
+
+/* Style for the Complete button */
+.complete-button {
+  padding: 10px;
+    background-color: #feca76;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    width:80px;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+/* Style for completed tasks */
+.task.completed {
+  border: 5px solid #452c63;
+}
+.name{
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nameCont{
+  display: flex;
+  margin-left: 45px;
+  margin-bottom: 5px;
+}
+.timeCont{
+  display: flex;
+  margin-left: 45px;
+}
+.value{
+  margin-right: 75px;
+  
+}
+  

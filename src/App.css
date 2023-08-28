@@ -1,0 +1,20 @@
+.app {
+  text-align: center;
+  height: 100%;
+  background-color: #B2FFFF;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin-left: 400px; /* Align items vertically in the center */
+}
+
+.title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 45px;
+  margin-left: 20px;
+}
+img{
+  width:50px;
+  height:50px;
+}
